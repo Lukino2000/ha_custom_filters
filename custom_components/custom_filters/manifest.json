@@ -1,7 +1,7 @@
 {
   "domain": "custom_filters",
   "name": "L2K Custom filters for Jinja2 templates.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "documentation": "https://github.com/Lukino2000/ha_custom_filters",
   "issue_tracker": "https://github.com/Lukino2000/ha_custom_filters/issues",
   "after_dependencies": ["template"],
