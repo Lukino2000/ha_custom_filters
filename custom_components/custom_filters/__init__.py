@@ -21,6 +21,7 @@ def init(*args):
     """Initialize filters"""
     env = _TemplateEnvironment(*args)
     env.filters["mapattributes"] = mapattributes
+    env.globals["mapattributes"] = mapattributes
     return env
 
 template.TemplateEnvironment = init
